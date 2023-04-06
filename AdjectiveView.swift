@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AdjectiveView: View{
-    @Binding myLib: MadLib
+    @Binding var myLib: MadLib
     var body: some View{
         TextField("Enter adjective", text: $myLib.adjective)
         NavigationLink("Adjective View"){
