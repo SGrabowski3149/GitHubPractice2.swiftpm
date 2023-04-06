@@ -12,7 +12,7 @@ struct NounView: View {
     var body: some View {
         TextField("Enter noun", text: $myLib.noun)
         NavigationLink("Verb View"){
-            VerbView(myLib)
+            VerbView(myLib: myLib)
         }
     }
 }
