@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct NounView: View {
+    @State var myLib: MadLib
     var body: some View {
         NavigationLink("Verb View"){
 //            VerbView()
