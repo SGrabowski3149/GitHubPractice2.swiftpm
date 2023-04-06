@@ -8,5 +8,7 @@
 import SwiftUI
 
 struct NounView: View {
-    
+    var body: some View {
+        Text("Delete")
+    }
 }
