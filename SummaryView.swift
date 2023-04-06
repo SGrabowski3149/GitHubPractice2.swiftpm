@@ -9,6 +9,6 @@ import SwiftUI
 
 struct SummaryView: View {
     var body: some View  {
-        Text("The ")
+        Text("The \(noun) was \(verb)ing, and looked \(adjective) doing it.")
     }
 }
